@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./style.css"
+import Formvalidation from './Components/Formvalidation';
+import Navbar from "./Components/Navbar";
+import Lasy from "./Components/Lasy";
+import AsyncUseState from "./Components/AsyncUseState";
 
-function App() {
+const App=()=> {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Navbar />
+      <Formvalidation /> */}
+      {/* <Lasy /> */}
+      <AsyncUseState />
     </div>
+    
   );
 }
 
